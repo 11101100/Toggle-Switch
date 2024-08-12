@@ -71,7 +71,7 @@
 
 นี่คือตัวอย่างการสร้างปุ่มสลับ (Toggle Switch) สำหรับการเลือก "เดือน" และ "ปี":
 
-```html
+```css
 <style>
     .switch-wrapper {
         position: relative;
@@ -130,6 +130,7 @@
     }
 </style>    
 
+```html
 <div class="switch-wrapper">
     <input id="monthly" type="radio" name="switch" checked>
     <input id="yearly" type="radio" name="switch">
